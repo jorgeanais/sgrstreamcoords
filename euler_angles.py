@@ -15,17 +15,17 @@ def get_matrix(theta: float, phi: float, psi: float):
     # Rotation about z-axis
     D = np.array(
         [
-            [cosθ, sinϕ, 0],
-            [-sinθ, cosϕ, 0],
-            [0, 0, 1]
+            [ cosθ,  sinϕ, 0],
+            [-sinθ,  cosϕ, 0],
+            [    0,     0, 1]
         ]
     )
 
     # Rotation about ξ-axis
     C = np.array(
         [
-            [1, 0, 0],
-            [0, cosθ, sinθ],
+            [1,    0,     0],
+            [0,  cosθ, sinθ],
             [0, -sinθ, cosθ]
         ]
     )
@@ -33,9 +33,9 @@ def get_matrix(theta: float, phi: float, psi: float):
     # Rotation about ζ'-axis
     B = np.array(
         [
-            [cosψ, sinψ, 0],
+            [ cosψ, sinψ, 0],
             [-sinψ, cosψ, 0],
-            [0, 0, 1]
+            [    0,    0, 1]
         ]
     )
 
