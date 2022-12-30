@@ -3,7 +3,7 @@ Transformation to convert Equatorial coordinates to Sgr stream coordinate system
 
 
 $$
-\tilde{\Lambda} = \text{atan2}(−0.935 953 54 \cos \alpha \cos \delta - 0.319 106 58 \sin \alpha \cos \delta + 0.148 868 95 \sin \delta,
+\tilde{\Lambda} = \text{atan2}(-0.935 953 54 \cos \alpha \cos \delta - 0.319 106 58 \sin \alpha \cos \delta + 0.148 868 95 \sin \delta,
 0.212 155 55 \cos \alpha \cos \delta - 0.848 462 91 \sin \alpha \cos \delta -0.484 871 86 \sin \delta)
 $$
 
